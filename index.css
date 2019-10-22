@@ -1,0 +1,39 @@
+body{
+    background: rgb(240 240 240);
+}
+
+.Banner__input{
+    padding: 2% 1% 2% 0%;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 10vh;
+    border-radius: 8px;
+    
+    background: white;
+    -webkit-box-shadow: 9px 9px 31px 5px rgba(0,0,0,0.44);
+    -moz-box-shadow: 9px 9px 31px 5px rgba(0,0,0,0.44);
+    box-shadow: 9px 9px 31px 5px rgba(0,0,0,0.44);
+}
+    
+.password{
+
+    width: 34vw !important ;
+    
+}
+#boton{
+    border:0.5px solid rgba(141, 141, 141, 0.712);
+    font-weight: 700;
+    width: 8vw !important;
+    background: rgba(227,227,227,1);
+    background: -moz-linear-gradient(top, rgba(227,227,227,1) 0%, rgba(227,227,227,1) 79%, rgba(242,242,242,1) 93%, rgba(242,242,242,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(227,227,227,1)), color-stop(79%, rgba(227,227,227,1)), color-stop(93%, rgba(242,242,242,1)), color-stop(100%, rgba(242,242,242,1)));
+    background: -webkit-linear-gradient(top, rgba(227,227,227,1) 0%, rgba(227,227,227,1) 79%, rgba(242,242,242,1) 93%, rgba(242,242,242,1) 100%);
+    background: -o-linear-gradient(top, rgba(227,227,227,1) 0%, rgba(227,227,227,1) 79%, rgba(242,242,242,1) 93%, rgba(242,242,242,1) 100%);
+    background: -ms-linear-gradient(top, rgba(227,227,227,1) 0%, rgba(227,227,227,1) 79%, rgba(242,242,242,1) 93%, rgba(242,242,242,1) 100%);
+    background: linear-gradient(to bottom, rgba(227,227,227,1) 0%, rgba(227,227,227,1) 79%, rgba(242,242,242,1) 93%, rgba(242,242,242,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e3e3', endColorstr='#f2f2f2', GradientType=0 );
+}
+.carta{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
