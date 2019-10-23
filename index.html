@@ -8,28 +8,31 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div class="Banner Banner__input d-none">
+    <div class="Banner Banner__input ">
         <div class="container">
             <div class="row">
+
                 <div class="col-12">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="inputPassword2" class="sr-only">Username</label>
+                                <input type="text" class="form-control password inputUserName" id="inputUserName"
+                                    placeholder="Search username...">
 
-                    <form class="form-inline mx-4">
-
-                        <div class="form-group mx-sm-3 mb-2">
-                            <label for="inputPassword2" class="sr-only">Username</label>
-                            <input type="text" class="form-control password" id="inputPassword2"
-                                placeholder="Search username...">
-
+                            </div>
                         </div>
-
-                        <button type="submit" id="boton" class="btn btn-light mb-2 ">Search</button>
-                    </form>
-
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light mb-2 boton">Search</button>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -38,7 +41,7 @@
 
 
 
-    <div class="Banner Banner__input">
+    <div class="Banner Banner__input1 d-none">
         <div class="container">
             <div class="row">
 
@@ -53,7 +56,7 @@
                             </div>
                         </div>
                         <div class="col-3">
-                            <button type="submit" id="boton" class="btn btn-light mb-2 ">Search</button>
+                            <button type="button" class="btn btn-light mb-2 boton">Search</button>
                         </div>
                     </div>
                 </div>
@@ -73,7 +76,7 @@
                                     <div class="card-body">
                                         <p class="card-title">@username</p>
                                         <h2 class="card-text">Full name</h2>
-                                        <p class="card-text"><small class="text-muted">This is the bio...</small>
+                                        <p class="card-text "><small class="text-muted bio">This is the bio...</small>
                                         </p>
                                     </div>
                                 </div>
@@ -85,37 +88,59 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <table class="table">
+                    <table id="tablaEspecial" class="table">
                         <thead>
-                            <tr>
-                                <th scope="col"class="noborder">Repositories</th>
-
+                            <tr class="repositories">
+                                <th scope="col" class="noborder">Repositories</th>
+                                <th scope="col" class="noborder"></th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
-                            </tr>
+                        <tbody >
+                            
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
+    </div>
+
+
+    <div class="Banner Banner__input2 d-none">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-9">
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="inputPassword2" class="sr-only">Username</label>
+                                <input type="text" class="form-control password" id="inputPassword2"
+                                    placeholder="Search username...">
+
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <button type="button" class="btn btn-light mb-2 boton">Search</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 p-3">
+                    <div class="text-left style__danger">
+                        <p class="m-0 p-3">User not found</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
     </div>
 
 
